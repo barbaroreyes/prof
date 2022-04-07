@@ -2,7 +2,7 @@
 const Question = (props) => {
   
   return (
-    <div className="question ">
+    <div className="question">
        
       <h3>{props.description}</h3>
       <div>

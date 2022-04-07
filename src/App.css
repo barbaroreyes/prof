@@ -64,6 +64,18 @@ h3{
   height: 120px;
   padding: 20px;
 }
+@media (max-width: 768px){
+  a{
+    width: 90%;
+  }.question,.ans{
+    width: 100%;
+  }
+}
+@media (min-width: 800px){
+  a{
+    width: 44%;
+  }
+}
 /* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
