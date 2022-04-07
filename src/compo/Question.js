@@ -3,8 +3,8 @@
 const Question = (props) => {
     console.log(props.answere)
   return (
-    <div className="question">
-       <h3>{props.name}</h3>
+    <div className="question ">
+       
       <h3>{props.description}</h3>
       <div>
       <img  className="image" src ={props.image} alt ='' />

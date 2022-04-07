@@ -5,7 +5,7 @@ import App from './App';
 import {QuestionsProvider} from './context/questions'
 import {BrowserRouter as Router} from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
-
+import 'tachyons'
 ReactDOM.render(
   <React.StrictMode>
     <QuestionsProvider>

@@ -10,7 +10,7 @@ const Questions = () => {
       <h1 className="name">Questions</h1>
       {questions.map((item , i)=>{
         return (
-            <Link to ={`/${item.id}`}><Question {...item}/></Link>
+            <Link className="grow" to ={`/${item.id}`}><Question {...item}/></Link>
         )
               
           
