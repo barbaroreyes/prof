@@ -12,6 +12,11 @@
   align-items: center;
   
 }
+.btn{
+  width: 15%;
+  margin: 10px;
+  
+}
 .question{
   display: flex;
   flex-direction: column;
@@ -31,6 +36,7 @@ a{
 .ans{
   margin: 20px;
   padding: 15px;
+  
 
 }
 .image{
